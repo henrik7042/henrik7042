@@ -11,24 +11,34 @@ Test
 ----
 There are several ways to get the host and domain name and
 this the ways that will be cover:
-
+```
 $ hostname
 fido
+```
+```
 $ hostname --fqdn
 fido.example.com
+```
+```
 $ domainname
 example.com
+```
+```
 $ hostnamectl hostname
 fido
-
+```
 Changes
 -------
 
-Three files are involved, /etc/hostname, /etc/sysctl.d/local.conf and /etc/hosts
-The file /etc/sysctl.d/local.conf does propably not exist so it need to be created.
+Three files are involved `/etc/hostname`, `/etc/sysctl.d/local.conf` and `/etc/hosts`.
 
+The file `/etc/sysctl.d/local.conf` does propably not exist so it need to be created.
+
+```
 $ cat /etc/hostname
 fido
+```
+```
 $ cat /etc/sysctl.d/local.conf 
 #
 # /etc/sysctl.conf - Configuration file for setting system variables
@@ -37,6 +47,8 @@ $ cat /etc/sysctl.d/local.conf
 #
 
 kernel.domainname = example.com
+```
+```
 $ cat /etc/hosts
 127.0.0.1       localhost
 127.0.1.1       fido.example.com fido
@@ -45,5 +57,5 @@ $ cat /etc/hosts
 ::1     localhost ip6-localhost ip6-loopback
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
-
+```
 Replace fido and example.com parts in the above files and reboot.
