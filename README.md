@@ -5,8 +5,8 @@ Welcome to my GitHub space!
 
 This repository currently contains two short articles:
 
-- **[Changing the hostname on a Debian system after installation](../blob/main/articles/set_linux_hostname.md)**
-- **[Composed vs. decomposed forms when representing special characters in Unicode](../blob/main/articles/filename_encoding_issue.md)**
+- **[Changing the hostname on a Debian system after installation](./articles/set_linux_hostname.md)**
+- **[Composed vs. decomposed forms when representing special characters in Unicode](./articles/filename_encoding_issue.md)**
 
 These notes are intended as practical references and learning resources. More content may be added over time.
 
