@@ -1,10 +1,14 @@
-Hi, I’m @henrik7042
 
-My main interest is embedded and close to hardware programming.
-I have worked mostly with bare metal systems with very limited memory and tight timing requirements.
-I'm also experienced and interested in FPGA coding.
+# Welcome
 
-I'm currently learning more about Linux drivers and RISC-V.
+Welcome to my GitHub space!
+
+This repository currently contains two short articles:
+
+- **[Changing the hostname on a Debian system after installation](../blob/main/articles/set_linux_hostname.md)**
+- **[Composed vs. decomposed forms when representing special characters in Unicode](../blob/main/articles/filename_encoding_issue.md)**
+
+These notes are intended as practical references and learning resources. More content may be added over time.
 
 <!---
 henrik7042/henrik7042 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
